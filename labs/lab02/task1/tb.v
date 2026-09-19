@@ -15,7 +15,7 @@ module tb;
 
   // TODO: instantiate DUT here, connecting t_i0, t_i1, t_s, t_y to its ports
 
-  mux2to1 DUT (
+mux_df DUT (
   .I0(t_i0),
   .I1(t_i1),
   .S(t_s),
